@@ -27,7 +27,8 @@
     
 .h-1{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    font-size: 20px;
     
 }
 /*shared button*/
@@ -40,13 +41,15 @@
     border-radius: 2px;
     height: 45px;
     width: 240px;}
+
+
 /*banner image*/
 .banner-image{
     margin:0 660px 0 620px ;
   
 }
 .head{
-    margin-bottom: 20px;
+    gap: 24px;
 }
 /*main*/
 .main-container{
@@ -63,7 +66,9 @@
     height: 1233px;
     /* border: 2px solid green; */
     margin:80px 30px 50px 100px;
-    background-color: #FFFFFF #ADC8F7 #070159;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 5px;
 
 }
 .why-dv{
@@ -80,6 +85,8 @@
     height:336px ;
    /* border: 2px solid green;*/
     background-color: white;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 5px;
 }
 .main-section-container-2{
 
@@ -88,6 +95,7 @@
    /* border: 2px solid green;*/
     margin: 20px 30px 50px 100px;
     display: flex;
+
 }
 .main-text-container{
     width: 60%;
@@ -106,6 +114,7 @@
     align-items: center;
    /* border: 2px solid firebrick;*/
 
+   
 }
 
 
@@ -237,12 +246,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 20px;
+    gap: 24px;
 
 
 
 
 }
 /* footer */
+.id{
+    gap: 24px;
+}
 .back{
     width: 1656px;
     height: 700px;
@@ -287,21 +302,26 @@
 
     width: 2100px;
     height:70px ;
-    /* border: 2px solid green; */
+    /* border: 2px solid green;  */
     background-color: white;
+    
 }
 .footer-section-container-2{
 
     width: 2100px;
-    height:60px ;
-    /* border: 2px solid green; */
-    margin: 20px 30px 50px 100px;
+    height:70px ;
+     /* border: 2px solid green;  */
+    
     display: flex;
+    justify-content: space-between;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 5px;
+    
 }
 .footer-text-container{
     width: 60%;
-    height: 40px;
-    /* border: 2px solid lightseagreen; */
+    height: 70px;
+     /* border: 2px solid lightseagreen;  */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -310,15 +330,20 @@
 }
 .footer-image-container{
     width: 30%;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-   /* border: 2px solid firebrick; */
-   justify-content: space-between;
+   /* border: 2px solid firebrick;  */
 }
-
-
+.id{
+    margin:25px;
+    
+}
+.big{
+    gap:5px;
+    margin-bottom:25px;
+}
 
 
 
