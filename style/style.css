@@ -1,0 +1,47 @@
+ /*font styel*/
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+ }
+ body{
+    font-family: "Open Sans", sans-serif;
+ }
+/*banner styel*/
+.banner{
+    max-width: 2100px;
+    height:650px ;
+    
+    border-radius: none;
+    background-image: url(../assets/Hero-bg.png);
+    
+}
+.banner-text-container{
+    margin: 13px 234px 58px 208px;
+    width: 1500px;
+
+    
+    height:579px;}
+    
+.h-1{
+    text-align: center;
+    padding: 20px;
+    
+}
+/*shared button*/
+.btn{
+    justify-content: center;
+    margin:180px 660px 0 620px ;
+    background-color:#0D1321;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    height: 45px;
+    width: 240px;}
+/*banner image*/
+.banner-image{
+    margin:0 660px 0 620px ;
+  
+}
